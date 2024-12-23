@@ -148,7 +148,7 @@ python main.py --train --work_dir ./GAN_805_EAS --out_dir models/clip  --g_learn
 
 Create a model applying differential privacy using a 2000 SNP dataset.
 ```
-python main.py --train --work_dir ./GAN_2000 --out_dir models/dp  --g_learn 0.00008 --d_learn 0.00064 --epochs 16000 --save_that 1000 --dropout 0.1 --norm None --ag_size 4000 --apply_dp --sigma 0.04 -c 0.5
+python main.py --train --work_dir ./GAN_2000 --out_dir models/dp  --g_learn 0.00008 --d_learn 0.00064 --epochs 16000 --save_that 1000 --dropout 0.1 --norm None --ag_size 4000 --apply_dp --sigma 0.04 -c 0.5 --use_poisson_sampling
 ```
 
 
